@@ -4,8 +4,10 @@
 
 ✅ Create babel config file
 
-❌ Build main HTML layout
-
 ✅ Build express server
 
-❌ make a successful MeaningCloud api request
+✅ make a successful MeaningCloud api request
+
+❌ Build main HTML layout
+
+❌ Make successful api request with user's text and show results
