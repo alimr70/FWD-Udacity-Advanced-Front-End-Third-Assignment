@@ -1,5 +1,5 @@
 const serverTest = () => {
-  fetch("http://localhost:5000/test")
+  fetch("http://localhost:8081/test")
 }
 
 export default serverTest;

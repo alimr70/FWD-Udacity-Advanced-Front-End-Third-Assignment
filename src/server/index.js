@@ -20,7 +20,7 @@ app.get("/test", (req, res) => {
   res.json("Server test is successful")
 })
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8081;
 
 app.listen(PORT, () => {
   console.log(`===> Server is running on port ${PORT}`)

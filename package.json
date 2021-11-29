@@ -5,7 +5,7 @@
   "main": "src/server/index.js",
   "scripts": {
     "start": "npm run build-prod && node src/server",
-    "dev": "npm run build-dev && node src/server",
+    "dev": "concurrently \"npm run build-dev\" \"node src/server\"",
     "build-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build-prod": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +25,7 @@
     "@babel/preset-env": "^7.16.4",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^6.4.0",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.5",

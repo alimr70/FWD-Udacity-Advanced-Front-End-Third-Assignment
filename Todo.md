@@ -7,3 +7,5 @@
 ❌ Build main HTML layout
 
 ✅ Build express server
+
+❌ make a successful MeaningCloud api request
