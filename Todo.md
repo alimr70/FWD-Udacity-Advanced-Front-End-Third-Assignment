@@ -12,4 +12,4 @@
 
 ✅ Make successful api request with user's text and show results
 
-❌ Show request results
+✅ Show request results
