@@ -21,7 +21,7 @@ app.get("/test", (req, res) => {
   res.json("Server test is successful")
 })
 
-app.get("/analyze", async(req, res) => {
+app.post("/analyze", async(req, res) => {
   const example = "President Joe Biden's attempts to limit the spread of the new Omicron Covid-19 variant begins on Monday with new US restrictions on travel from South Africa and seven other countries taking effect, as his administration seeks to assure Americans that they are moving swiftly to try to contain the threat"
   const text = req.body.text || example
 
