@@ -32,13 +32,13 @@ form.addEventListener("submit", async(e) => {
 
 const showLoading = () => {
   const loadingEl = document.createElement("div")
-  loadingEl.id = "loading-spinner"
+  loadingEl.id = "loading"
   loadingEl.innerText = "Loading..."
   resultsDiv.appendChild(loadingEl)
 }
 
 const hideLoading = () => {
-  const loadingEl = document.querySelector("#loading-spinner")
+  const loadingEl = document.querySelector("#loading")
   resultsDiv.removeChild(loadingEl)
 }
 
