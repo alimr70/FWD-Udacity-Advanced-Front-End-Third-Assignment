@@ -6,19 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Evaluate News NLP</title>
+  <!-- <link rel="stylesheet" type="text/css" href="/styles/defaults.css"> -->
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
-  <h1>Project Evaluate News NLP</h1>
+  <header>
+    <h1>Project Evaluate News NLP</h1>
+  </header>
 
-  <form id="main-form">
-    <textarea name="form-text" id="form-text" cols="30" rows="10" placeholder="Give Me The News!"></textarea>
-    <button type="submit">Analyze!</button>
-  </form>
+  <main>
+    <form id="main-form">
+      <textarea name="form-text" id="form-text" cols="30" rows="10" placeholder="Give Me The News!" required></textarea>
+      <button type="submit">Analyze!</button>
+    </form>
 
-  <div id="results">
-  </div>
+    <div id="results">
+      <h3>Results</h3>
+    </div>
+  </main>
+
+  <footer>
+    What this project does is analyzing news provided by user through an external thrid party API and return some of the results to the user.
+  </footer>
+
 </body>
 
 </html>

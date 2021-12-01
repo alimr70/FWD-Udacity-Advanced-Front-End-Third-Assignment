@@ -1,0 +1,38 @@
+#main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  textarea,
+  button {
+    font-weight: bold;
+    font-size: large;
+    font-family: sans-serif;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+  }
+  textarea {
+    min-width: 300px;
+    max-width: 400px;
+    height: 150px;
+    min-height: 100px;
+    max-height: 200px;
+    background-color: #e5e7eb;
+    color: #111827;
+    border: none;
+    border-radius: 15px;
+    &:focus-visible {
+      outline: 5px solid #3b82f6;
+    }
+  }
+  button {
+    cursor: pointer;
+    background-color: #1d4ed8;
+    width: 50%;
+    &:hover {
+      background-color: #3b82f6;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#results {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  background-color: #e5e7eb;
+  color: #111827;
+  border-radius: 15px;
+  // min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span {
+    color: #1d4ed8;
+    font-weight: bold;
+    font-size: large;
+  }
+}
