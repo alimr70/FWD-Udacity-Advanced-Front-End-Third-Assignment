@@ -5,6 +5,11 @@ main {
   // align-items: center;
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    grid-template-rows: none;
+    width: 80%;
+    align-content: center;
+  }
+  @media (min-width: 1200px) {
+    width: 60%;
   }
 }
