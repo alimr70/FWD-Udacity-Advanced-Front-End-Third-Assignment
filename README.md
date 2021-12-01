@@ -2,7 +2,7 @@
 
 ## This project is the second assignment of FWD & Udacity Advanced Web Development Track
 
-### What this project does is analyzing news provided by user through an external thrid party API and return some of the results to the user. The Main purpos of the project is to practice working with build tool(Webpack) and it's different configs with Babel and Sass in development and productions
+### What this project does is analyze news provided by the user through an external third-party API and return some of the results to the user. The main purpose of the project is to practice working with the build tool(Webpack) and its different configs with Babel and Sass in development and productions
 
 ### To start developing
 

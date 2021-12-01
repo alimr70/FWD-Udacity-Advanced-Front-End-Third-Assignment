@@ -1,3 +1,10 @@
 main {
   width: max-content;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  // align-items: center;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
 }
