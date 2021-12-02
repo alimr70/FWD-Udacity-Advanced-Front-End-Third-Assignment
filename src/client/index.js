@@ -12,6 +12,8 @@ import { hideLoading, showLoading, showResults } from './js/helpers'
 const form = document.querySelector("#main-form")
 const formText = document.querySelector("#form-text")
 const resultsDiv = document.querySelector("#results")
+const apiURL = window.location.origin === "http://localhost:8080" ? "http://localhost:8081" : window.location.origin;
+
 
 isServerLive(document.body)
 
@@ -22,7 +24,7 @@ form.addEventListener("submit", async(e) => {
 
     const results = await axios({
       method: "post",
-      url: "http://localhost:8081/analyze",
+      url: apiURL + "/analyze",
       data: {
         text: formText.value
       }
