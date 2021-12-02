@@ -29,6 +29,15 @@
     What this project does is analyze news provided by the user through an external thrid-party API and return some of the results to the user.
   </footer>
 
+  <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
 </body>
 
 </html>

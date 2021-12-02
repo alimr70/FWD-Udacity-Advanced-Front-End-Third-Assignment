@@ -18,7 +18,7 @@
 
 ✅ Make more than one js file
 
-❌ Setup jest tests
+✅ Setup jest tests
 
 ❌ Setup service workers
 

@@ -35,7 +35,6 @@ form.addEventListener("submit", async(e) => {
     resultsDiv.innerHTML = showResults(results.data)
 
   } catch (err) {
-    console.log(err)
     alert("Sorry something went wrong!")
   }
 })
