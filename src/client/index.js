@@ -12,7 +12,7 @@ import { hideLoading, showLoading, showResults } from './js/helpers'
 const form = document.querySelector("#main-form")
 const formText = document.querySelector("#form-text")
 const resultsDiv = document.querySelector("#results")
-const apiURL = window.location.origin === "http://localhost:8080" ? "http://localhost:8081" : process.env.SERVER_API_URL;
+const apiURL = window.location.origin === "http://localhost:8080" || window.location.origin === "http://localhost:8081" ? "http://localhost:8081" : "https://news-eval-nlp.herokuapp.com";
 
 
 isServerLive(document.body)
