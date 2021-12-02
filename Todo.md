@@ -20,6 +20,6 @@
 
 ✅ Setup jest tests
 
-❌ Setup service workers
+✅ Setup service workers
 
 ✅ Handle offline mode
