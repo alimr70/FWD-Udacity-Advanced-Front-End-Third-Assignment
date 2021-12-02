@@ -16,10 +16,10 @@
 
 ✅ Write the scss styles
 
-❌ Make more than one js file
+✅ Make more than one js file
 
 ❌ Setup jest tests
 
 ❌ Setup service workers
 
-❌ Handle offline mode
+✅ Handle offline mode
