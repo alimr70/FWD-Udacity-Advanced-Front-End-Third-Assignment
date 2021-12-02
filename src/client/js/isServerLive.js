@@ -1,4 +1,4 @@
-const apiURL = window.location.origin === "http://localhost:8080" ? "http://localhost:8081" : window.location.origin;
+const apiURL = window.location.origin === "http://localhost:8080" ? "http://localhost:8081" : process.env.SERVER_API_URL;
 
 const isServerLive = async(target) => {
   try {

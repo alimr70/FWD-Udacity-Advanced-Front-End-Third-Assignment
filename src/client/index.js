@@ -12,7 +12,7 @@ import { hideLoading, showLoading, showResults } from './js/helpers'
 const form = document.querySelector("#main-form")
 const formText = document.querySelector("#form-text")
 const resultsDiv = document.querySelector("#results")
-const apiURL = window.location.origin === "http://localhost:8080" ? "http://localhost:8081" : window.location.origin;
+const apiURL = window.location.origin === "http://localhost:8080" ? "http://localhost:8081" : process.env.SERVER_API_URL;
 
 
 isServerLive(document.body)
